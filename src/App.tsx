@@ -187,8 +187,8 @@ function App() {
   const costs = calculateMonthlyCosts();
 
   return (
-    <div className="min-h-screen bg-gray-50 max-w-md mx-auto">
-      <div className="bg-white rounded-xl shadow-lg">
+    <div className="min-h-screen bg-gray-50 max-w-md p-2 mx-auto">
+      <div className="bg-white rounded-xl shadow-lg p-4">
         <div className="flex gap-2 mb-6 flex-wrap">
           <button
             className={`flex-1 py-2 px-4 rounded-lg ${

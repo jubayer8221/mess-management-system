@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   PlusCircle,
   MinusCircle,
   ShoppingBag,
   Users,
   Calculator,
-  Calendar,
+  // Calendar,
   Home,
 } from "lucide-react";
 import type { Member, ShoppingItem, MealEntry, RentCost } from "./types";
